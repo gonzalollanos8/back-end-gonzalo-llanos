@@ -1,14 +1,28 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
-  }
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalollanos8/back-end-gonzalo-llanos.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gonzalollanos8/back-end-gonzalo-llanos/issues"
+  },
+  "homepage": "https://github.com/gonzalollanos8/back-end-gonzalo-llanos#readme",
+  "description": ""
 }
